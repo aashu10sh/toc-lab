@@ -1,6 +1,8 @@
 #include<stdio.h>
-
+#include<stdlib.h>
 #include<string.h>
+
+// Lab for string with substring '111'
 
 enum States {
   INITIAL,
@@ -44,4 +46,6 @@ int main(void) {
     printf("String Fails!");
     printf(" %d", current_state);
   }
+
+  return EXIT_SUCCESS;
 }
