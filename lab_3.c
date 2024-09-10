@@ -2,6 +2,8 @@
 #include<string.h>
 #include<stdlib.h>
 
+
+// divisible by '3'
 enum States{
     ACCEPT,
     REJECT
