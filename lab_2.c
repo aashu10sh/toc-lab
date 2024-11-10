@@ -11,6 +11,7 @@ enum States{
 typedef enum States State;
 
 int main(void) {
+  printf("This code is run by Aashutosh Pudasaini - 1202\n");
   char * string = "this-is-so-cool-bro-ab";
   int string_len = strlen(string);
   State current_state = INITIAL;

@@ -12,6 +12,7 @@ enum States {
 };
 
 int main(void) {
+  printf("This code is run by Aashutosh Pudasaini - 1202\n");
   enum States current_state = INITIAL;
   char * input = "001110";
   for (int i = 0; i < strlen(input); i++) {

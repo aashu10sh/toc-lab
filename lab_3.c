@@ -10,6 +10,7 @@ enum States{
 
 
 int main(void){
+    printf("This code is run by Aashutosh Pudasaini - 1202\n");
     int input = 21;
     enum States current_state = REJECT;
 

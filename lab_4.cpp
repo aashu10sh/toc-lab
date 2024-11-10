@@ -5,7 +5,7 @@
 
 
 int main(){
-
+    printf("This code is run by Aashutosh Pudasaini - 1202\n");
     std::stack<char> stack;
     std::string input = "11001";
 
