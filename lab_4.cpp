@@ -21,7 +21,6 @@ int main(){
             stack.pop();
         }
     }
-
     
     if(stack.empty()){
         printf("PDA accepts the string %s \n", input.c_str());

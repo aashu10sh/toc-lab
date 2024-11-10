@@ -8,9 +8,7 @@ enum States{
   SECOND
  };
 
- typedef enum States State;
-
-
+typedef enum States State;
 
 int main(void) {
   char * string = "this-is-so-cool-bro-ab";
